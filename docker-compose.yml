@@ -1,0 +1,13 @@
+ services:
+  spring:
+    build: .
+    restart: "no"
+    ports:
+      - "8080:8080"
+
+  postgresdb:
+    image: postgres
+    restart: always
+    environment:
+        POSTGRES_PASSWORD: example
+         docker-compose.yml
