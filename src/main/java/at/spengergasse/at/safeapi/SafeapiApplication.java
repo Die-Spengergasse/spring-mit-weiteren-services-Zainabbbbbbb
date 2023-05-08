@@ -1,13 +1,13 @@
-package com.example.demo;
+package at.spengergasse.at.safeapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class SafeapiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(SafeapiApplication.class, args);
 	}
 
 }
